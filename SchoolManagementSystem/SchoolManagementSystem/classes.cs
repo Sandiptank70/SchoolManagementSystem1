@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace SchoolManagementSystem
 {
-    public partial class Form1 : Form
+    public partial class classes : Semple
     {
-        public Form1()
+        public classes()
         {
             InitializeComponent();
+        }
+
+        private void classes_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
